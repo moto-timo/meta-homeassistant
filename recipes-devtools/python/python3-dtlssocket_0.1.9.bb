@@ -14,5 +14,5 @@ DEPENDS += "${PYTHON_PN}-cython-native"
 CONFIGUREOPTS = " --build=${BUILD_SYS} --host=${HOST_SYS} --target=${TARGET_SYS}"
 export CONFIGUREOPTS
 
-SRC_URI[md5sum] = "bcef26a5320348905e3df61d65e983c3"
-SRC_URI[sha256sum] = "7a256f47e68bd0289030c459fdce2f3decd0fc1a8efd147add87d36775e350ab"
+SRC_URI[md5sum] = "6ae135d77a7d4b986d56728bab47f658"
+SRC_URI[sha256sum] = "e05157155e79ebb70e345a9a193cf285f2589ed38436cb3feda0766a31ae75a5"
