@@ -1,0 +1,18 @@
+version: '3'
+services:
+  kas:
+    image: kasproject/kas
+    volumes:
+      - ./:/home/projects
+      - sstate:/mnt/sstate-cache
+    stdin_open: true
+    tty: true
+    environment:
+      SSTATE_DIR: /mnt/sstate-cache
+
+volumes:
+  sstate:
+    driver_opts:
+      type: "nfs"
+      o: "addr=odin,vers=4.2,rw"
+      device: ":/srv/nfs/sstate"
