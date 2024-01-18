@@ -1,0 +1,9 @@
+header:
+  version: 14
+
+repos:
+  poky:
+    refspec: nanbield
+
+  meta-openembedded:
+    refspec: nanbield
