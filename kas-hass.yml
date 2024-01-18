@@ -58,4 +58,4 @@ local_conf_header:
     # Using the CDN rather than the yoctoproject.org address is suggested/preferred.
     #
     BB_HASHSERVE_UPSTREAM = "hashserv.yocto.io:8687"
-    SSTATE_MIRRORS ?= "file://.* http://cdn.jsdelivr.net/yocto/sstate/all/PATH;downloadfilename=PATHk
+    SSTATE_MIRRORS ?= "file://.* http://cdn.jsdelivr.net/yocto/sstate/all/PATH;downloadfilename=PATH"
