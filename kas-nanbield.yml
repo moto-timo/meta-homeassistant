@@ -1,12 +1,12 @@
 header:
-  version: 10
+  version: 14
 
 repos:
   poky:
-    branch: mickledore
+    branch: nanbield
 
   meta-openembedded:
-    branch: mickledore
+    branch: nanbield
 
 local_conf_header:
 
